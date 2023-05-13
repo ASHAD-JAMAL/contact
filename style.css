@@ -537,21 +537,24 @@ p {
     .details {
         height: 50%;
         width: 100%;
+        margin: 0px;
     }
     
     .details div {
         /* margin-bottom: 30px; */
         height: 100%;
-        width: 80%;
+        width: 90%;
         margin: 10%;
         border-radius: 15px;
         box-shadow: 2px 2px 2px 2px rgb(244, 240, 240);
+        margin: auto;
+        margin-top: 40px;
         /* padding-top: 10px; */
     }
     
     .details div i {
         margin-left: 25px;
-        font-size: 82px;
+        font-size: 50px;
     }
     
     .details div h3,
@@ -560,10 +563,10 @@ p {
         margin-top: 8px;
     }
     .details div h3{
-        font-size: 50px;
+        font-size: 36px;
     }
     .details div p{
-        font-size: 47px;
+        font-size: 18px;
     }
 }
 
