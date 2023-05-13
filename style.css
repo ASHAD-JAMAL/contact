@@ -568,11 +568,115 @@ p {
     .details div p{
         font-size: 18px;
     }
+    
+    .last {
+        margin-top: 30px;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(236, 249, 243);
+        padding-bottom: 100px;
+    }
+    
+    .last h1 {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+    
+    .last p {
+        font-size: 20px;
+        /* margin: 0px; */
+        margin: 20px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .last .contact {
+        width: 100%;
+        height: 150px;
+        /* margin-top: 8%; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact input:focus {
+        outline: none;
+    }
+    
+    .contact input[type=text1] {
+        padding-left: 20px;
+    }
+    .contact input{
+        font-size: 25px;
+    }
+    .contact .input-data{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .contact .input-data label{
+        font-size: 18px;
+    }
+    .last .contact div {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        grid-template-columns: auto auto auto;
+        /* gap: 20px 50px; */
+    }
+    
+    .contact textarea {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-top: 20px;
+        max-height: 100px;
+        min-height: 100px;
+        max-width: 733px;
+        min-width: 733px;
+        border: none;
+        box-shadow: 2px 2px 2px 2px rgb(236, 249, 243);
+    }
+    
+    .contact textarea:focus {
+        outline: none;
+    }
+    
+    .button1 {
+        background-color: darkblue;
+        color: white;
+        height: 40px;
+        width: 102px;
+        margin-left: 45%;
+        margin-top: 20px;
+        border-radius: 8px;
+        display: block;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .button1:hover {
+        background-color: #003cff;
+        color: white;
+    }
+    
+    .input-data label {
+        position: absolute;
+        padding-top: 20px;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+        color: grey;
+        z-index: 1;
+        /* font-size: 14px; */
+    }
+    
+    .input-data input:focus~label,
+    .input-data input:valid~label {
+        transform: translateX(-1px);
+        margin-top: -37px;
+    }
+    
 }
-
-
-
-
-
-
-
